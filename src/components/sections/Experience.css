@@ -1,0 +1,51 @@
+.experience {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 3rem 0;
+  }
+}
+
+.experience h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.experience-timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience-item {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.experience-item h3 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.experience-item h4 {
+  margin-bottom: 0.5rem;
+  color: #667eea;
+  font-size: 1.1rem;
+}
+
+.period {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.experience-item p {
+  color: #666;
+  line-height: 1.6;
+}

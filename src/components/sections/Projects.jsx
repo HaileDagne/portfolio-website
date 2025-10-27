@@ -14,19 +14,19 @@ const Projects = () => {
         "Stripe",
         "Firebase",
       ],
-      image: "/images/amazon-clone-bg.jpg",
+      gradient: "linear-gradient(135deg, #ff6b6b, #ffa500)",
     },
     {
       title: "Netflix Clone",
       description: "A collaborative task management application",
       technologies: ["React", "GitHub", "Media query"],
-      image: "/images/netflix-clone-bg.jpg",
+      gradient: "linear-gradient(135deg, #e50914, #221f1f)",
     },
     {
       title: "Evangadi Forum",
       description: "A responsive application with interactive maps",
       technologies: ["React", "Express", "MySQL", "Javascript", "node.js"],
-      image: "/images/evangadi-forum-bg.jpg",
+      gradient: "linear-gradient(135deg, #667eea, #764ba2)",
     },
   ];
 
@@ -40,10 +40,7 @@ const Projects = () => {
               key={index}
               className="project-card"
               style={{
-                backgroundImage: `url(${project.image})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
+                background: project.gradient,
               }}
             >
               <div className="project-overlay">

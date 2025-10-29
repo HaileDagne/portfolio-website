@@ -2,9 +2,9 @@
 export const PORTFOLIO_INFO = {
   name: "Haile",
   title: "Full Stack Developer",
-  email: "your.email@example.com",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
+  email: "hailedagne@norisk4you.com",
+  phone: "+1 (571) 446-1389",
+  location: "Herndon, VA",
   availability: "Available for Projects",
 };
 
@@ -23,4 +23,3 @@ export const NAVIGATION_ITEMS = [
   { name: "Experience", href: "#experience" },
   { name: "Contact", href: "#contact" },
 ];
-

@@ -18,18 +18,13 @@ const Hero = () => {
               <span className="hero-subtitle">Full Stack Developer</span>
             </h1>
             <p className="hero-description">
-              Hey, I'm Haile I build web experiences that people
-              actually enjoy using. From sleek React interfaces to powerful
-              Node.js backends, I turn complex problems into simple, elegant
-              solutions. Whether it's an app that needs to scale or a feature
-              that needs to shine, I'm all about creating digital products that
-              just work and look great doing it. 
-              Full-stack developer obsessed with building web apps that are fast,
-              beautiful, and actually solve real problems. Full-stack developer specializing in modern
-              web applications. I combine creative frontend design with solid
-              backend architecture to build products that scale. From
-              interactive React interfaces to robust Node.js APIs, I create
-              solutions that deliver real value. Explore my projects below.
+              I'm Haile, a full-stack developer who builds web experiences
+              people love to use. I specialize in creating fast, beautiful
+              applications with React frontends and Node.js backends. My focus
+              is turning complex problems into elegant, scalable solutions that
+              actually work. I combine creative design with solid architecture
+              to deliver real value. Check out my projects to see what I've
+              built.
             </p>
             <div className="hero-stats">
               <div className="stat-item">

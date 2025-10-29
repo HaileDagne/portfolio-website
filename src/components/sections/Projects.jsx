@@ -5,28 +5,33 @@ const Projects = () => {
   const projects = [
     {
       title: "Amazon Clone",
-      description: "A full-stack e-commerce solution with React and Node.js",
-      technologies: [
-        "React",
-        "Node.js",
-        "Express",
-        "MySQL",
-        "Stripe",
-        "Firebase",
-      ],
-      gradient: "linear-gradient(135deg, #ff6b6b, #ffa500)",
+      description:
+        "E-commerce platform with shopping cart, payment integration, and admin dashboard using MERN stack.",
+      technologies: ["React", "Node.js", "MySQL", "Stripe"],
+      backgroundImage: "/portfolio-website/images/amazon-clone-bg.jpg",
+      githubLink: "https://github.com/HaileDagne/Amazon-clone.git",
+      liveLink: "https://hailedagne.github.io/Amazon-clone/",
+      featured: true,
     },
     {
       title: "Netflix Clone",
-      description: "A collaborative task management application",
-      technologies: ["React", "GitHub", "Media query"],
-      gradient: "linear-gradient(135deg, #e50914, #221f1f)",
+      description:
+        "A full-stack Netflix clone with user authentication, movie browsing, and streaming capabilities built with React, Node.js, and MongoDB.",
+      technologies: ["React", "Node.js", "MongoDB", "Express"],
+      backgroundImage: "/portfolio-website/images/netflix-clone-bg.jpg",
+      githubLink: "https://github.com/HaileDagne/Netflix-clone-2025.git",
+      liveLink: "https://hailedagne.github.io/Netflix-clone-2025/",
+      featured: true,
     },
     {
-      title: "Evangadi Forum",
-      description: "A responsive application with interactive maps",
-      technologies: ["React", "Express", "MySQL", "Javascript", "node.js"],
-      gradient: "linear-gradient(135deg, #667eea, #764ba2)",
+      title: "Q & A Forum",
+      description:
+        "Community-driven question and answer platform with voting, reputation system, and real-time notifications.",
+      technologies: ["React", "Express", "MySQL", "Socket.io"],
+      backgroundImage: "/portfolio-website/images/evangadi-forum-bg.jpg",
+      githubLink: "https://github.com/HaileDagne/EVANGADI-FORUM.git",
+      liveLink: "https://evangadi-forum.norisk4you.com/",
+      featured: true,
     },
   ];
 
@@ -36,14 +41,21 @@ const Projects = () => {
         <h2>My Projects</h2>
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div
-              key={index}
-              className="project-card"
-              style={{
-                background: project.gradient,
-              }}
-            >
-              <div className="project-overlay">
+            <div key={index} className="project-card">
+              <div
+                className="project-image"
+                style={{
+                  backgroundImage: `url(${project.backgroundImage})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
+              >
+                {project.featured && (
+                  <div className="featured-badge">Featured</div>
+                )}
+              </div>
+              <div className="project-content">
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
                 <div className="technologies">
@@ -52,6 +64,16 @@ const Projects = () => {
                       {tech}
                     </span>
                   ))}
+                </div>
+                <div className="project-buttons">
+                  <a href={project.githubLink} className="btn btn-code">
+                    <span className="btn-icon">&lt;/&gt;</span>
+                    Code
+                  </a>
+                  <a href={project.liveLink} className="btn btn-live">
+                    <span className="btn-icon">↗</span>
+                    Live
+                  </a>
                 </div>
               </div>
             </div>

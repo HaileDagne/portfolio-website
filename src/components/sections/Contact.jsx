@@ -13,9 +13,9 @@ const Contact = () => {
               I'm always interested in new opportunities and exciting projects.
             </p>
             <div className="contact-details">
-              <p>Email: your.email@example.com</p>
-              <p>Phone: +1 (555) 123-4567</p>
-              <p>Location: San Francisco, CA</p>
+              <p>Email: hailedagne@norisk4you.com</p>
+              <p>Phone: +1 (571) 446-1389</p>
+              <p>Location: Herndon, VA</p>
             </div>
           </div>
           <div className="contact-form">

@@ -9,23 +9,21 @@ const About = () => {
           <h2 className="section-title">
             <span className="gradient-text">About Me</span>
           </h2>
-          <p className="section-subtitle">
-            Passionate developer crafting exceptional digital experiences
-          </p>
         </div>
 
         <div className="about-content">
           <div className="about-text">
             <div className="about-intro">
-              <h3>
-                I'm a dedicated developer who loves turning ideas into reality
-              </h3>
               <p>
-                With over 3 years of experience in web development, I specialize
-                in creating responsive, user-friendly websites and applications.
-                I have a strong foundation in both frontend and backend
-                technologies, and I'm always eager to learn new technologies and
-                frameworks.
+                Passionate full-stack developer who thrives on transforming
+                ideas into elegant, scalable web solutions. I craft seamless
+                user experiences with React on the frontend while architecting
+                robust APIs and databases with Node.js on the backend. Whether
+                building pixel-perfect interfaces or optimizing server
+                performance, I'm driven by clean code, continuous learning, and
+                creating products that users love. Currently exploring emerging
+                technologies and best practices to push the boundaries of what's
+                possible on the web.
               </p>
             </div>
 
